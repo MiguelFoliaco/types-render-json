@@ -1,11 +1,15 @@
 {
   "name": "types-render-json",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "private": false,
   "description": "",
   "main": "src/index.ts",
   "scripts": {},
   "author": "Miguel Angel Foliaco Gomez",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/MiguelFoliaco/types-render-json"
+  },
   "license": "ISC",
   "devDependencies": {
     "typescript": "^5.0.4"
