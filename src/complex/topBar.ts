@@ -1,7 +1,7 @@
 import { CSSProperties } from "react";
 import { InputGenerated } from "../utils/inputGeneratedForm";
 
-export interface ITopBar {
+export interface ITopBarProps {
   icon: {
     type: "string" | "url";
     value: string;
@@ -31,7 +31,7 @@ export interface CSSTypesTopBar {
 
 export interface ITopBar{
   style?: CSSTypesTopBar;
-  props?: ITopBar;
+  props?: ITopBarProps;
   target: "top-bar";
   name?: string;
   __type?: "Complex";

@@ -1,7 +1,7 @@
 import { InputGenerated } from "../../utils/inputGeneratedForm";
 import { CSSProperties } from "react";
 
-export interface IProductName {
+export interface IProductNameProps {
   link: boolean;
 }
 
@@ -12,7 +12,7 @@ export interface ProductNameCSS {
 
 export interface IProductName {
   name: string;
-  props: IProductName;
+  props: IProductNameProps;
   style?: ProductNameCSS;
   target: "product-name";
   schema?: InputGenerated[];
