@@ -1,0 +1,16 @@
+{
+  "name": "types-render-json",
+  "version": "1.0.0",
+  "private": false,
+  "description": "",
+  "main": "src/index.ts",
+  "scripts": {},
+  "author": "Miguel Angel Foliaco Gomez",
+  "license": "ISC",
+  "devDependencies": {
+    "typescript": "^5.0.4"
+  },
+  "dependencies": {
+    "@types/react": "^18.0.35"
+  }
+}
