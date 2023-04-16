@@ -1,4 +1,5 @@
 import { IButtonSocial } from "./complex/buttonSocial";
+import { ICodeAttribute } from "./complex/code";
 import { Icon } from "./complex/icon";
 import { IProductDescription } from "./complex/product/IProductDescription";
 import { IProductImage } from "./complex/product/IProductImage";
@@ -77,6 +78,7 @@ export type IElementAttributes =
   | Icon
   | IButtonSocial
   | ITopBar
+  | ICodeAttribute
   //? Product
   | IProductCard
   | IProductName
@@ -96,6 +98,7 @@ export type IElementAttributesBlock =
   | ILink
   //? Componentes "Complejos"
   | ISliderCategories
+  | ICodeAttribute
   | Icon
   | IButtonSocial
   | ITopBar

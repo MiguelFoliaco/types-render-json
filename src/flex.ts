@@ -14,6 +14,7 @@ import { IProductImage } from "./complex/product/IProductImage";
 import { IProductDescription } from "./complex/product/IProductDescription";
 import { Icon } from "./complex/icon";
 import { IElementCustom } from "./custom/elementCustomBasic";
+import { ICodeAttribute } from "./complex/code";
 
 
 
@@ -39,6 +40,7 @@ export type IFlexNodeEntry = (
     | ILink
     //? Componentes "Complejos"
     | ISliderCategories
+    | ICodeAttribute
     //? Product
     | IProductCard
     | IProductName
@@ -60,6 +62,7 @@ export type IFlexBlockEntry = (
     | ILink
     //? Componentes "Complejos"
     | ISliderCategories
+    | ICodeAttribute
     //? Product
     | IProductCard
     | IProductName

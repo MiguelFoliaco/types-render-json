@@ -15,4 +15,5 @@ export { IProductImage, IProductImageProps, ProductImageCSS } from './complex/pr
 export { IProductName, ProductNameCSS } from './complex/product/productName';
 export { IElementCustom } from './custom/elementCustomBasic';
 export { InputGenerated } from './utils/inputGeneratedForm';
+export { ICodeAttribute } from './complex/code';
 export { IBlocksEntry, IElementAttributes, IElementAttributesBlock, IJSONEntry, INodesEntry, IRootJSONEntry } from './rootJSON';
